@@ -1,4 +1,4 @@
 class User < ApplicationRecord
-  has_many :history
-  has_many :letter, through: :history
+  has_many :histories
+  has_many :affirmations, through: :history
 end

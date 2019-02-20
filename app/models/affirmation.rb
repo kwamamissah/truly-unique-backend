@@ -1,6 +1,6 @@
 class Affirmation < ApplicationRecord
-  has_many :history
-  has_many :user, through: :history
+  has_many :histories
+  has_many :users, through: :history
 
   def most_viewed
 

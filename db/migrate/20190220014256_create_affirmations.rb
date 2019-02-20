@@ -4,7 +4,7 @@ class CreateAffirmations < ActiveRecord::Migration[5.2]
       t.string :kind
       t.string :mood
       t.string :title
-      t.content :text
+      t.text :content
 
       t.timestamps
     end
